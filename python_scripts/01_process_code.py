@@ -1,14 +1,6 @@
 
 # coding: utf-8
 
-# In[ ]:
-
-
-#/Users/brandonwalraven/Desktop/DSI/projects/new_st_lucia_project/Client_Data/RBG/st_luc_dannery_transparent_mosaic_group1.tif
-#/Users/brandonwalraven/Desktop/DSI/projects/new_st_lucia_project/CHARIM_Data/Buildings/buildings_1/buildings_1.shp
-#/Users/brandonwalraven/Desktop/DSI/projects/new_st_lucia_project/CHARIM_Data/Buildings/buildings_1.csv
-
-
 # In[18]:
 
 
