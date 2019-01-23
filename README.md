@@ -29,12 +29,14 @@ This project was part of a partnership between [New Light Technologies](https://
 Drone image data was collected showing rooftops in the small island town of Dennery on the island of St. Lucia to help the island prepare for future hurricanes. Given that there are approximately 80,000 buildings on the island of St. Lucia, developing a model that can quickly screen for damaged roofs would be useful for anyone assessing how to prepare the island for hurricane season. We created a set of individual roof images from the provided drone data by layering a shapefile with coordinates for all St. Lucia buildings from the Caribbean Handbook on Risk Information Management (CHARIM) database. Individual roof images were cropped using the bounding box for each building. We then trained a CNN to correctly classify images as either non-roof, good-quality roof, or poor-quality roof. Our initial model correctly identified 38% or the non-roof images and 73% of the poor roof images in the dataset, with a total accuracy for all three categories of 72% from a 56% baseline. This is a strong proof of concept for the model's viability if it could be trained on a larger set of images. The files provided in this repo include a production code file (both notebook and .py formats) that will take any drone image from St. Lucia, create individual images for each roof, classify them with the trained CNN model, and return a filtered version of the CHARIM buildings information with only the buildings the CNN identified as poor-quality. 
 
 **Required Python Libraries**
+---
 
 
 
 
 
 **Provided Code**
+---
 
 Four different files are included in this repo:
 
@@ -65,6 +67,7 @@ The diagram below illustrates how the Categorical CNN and Process Code work toge
 
 
 **Challenges**
+---
 
 **Reconciling Coordinate Systems**
 
@@ -95,6 +98,7 @@ To compensate for the low number of images available to us, we used the Keras Im
 
 
 **Results and Analysis**
+---
 
 When evaluating the model we want to ensure that both non-roof images and poor roofs are being correctly identified. To evaluate this, the two most important metrics to focus on are non-roof recall and poor-quality roof recall. They describe the percent of each category that the model correctly identified. Respectively, our model scored 38% on non-roof recall and 73% of poor-roof recall. Given the small number training images, we feel this is a viable proof of concept. A confusion matrix of our results is included below:
 
@@ -109,6 +113,7 @@ When evaluating the model we want to ensure that both non-roof images and poor r
 ** **
 
 **Future Improvements**
+---
 
 **Automating the image cropping workflow**
 
