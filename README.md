@@ -1,4 +1,5 @@
 **Problem Statement**
+---
 
 Our project goal was to use drone RGB data and GIS data from the Caribbean Handbook on Risk Information Management (CHARIM) to train a convolutional neural network (CNN) to identify buildings that may need repairs to prepare for future hurricanes on the island of St. Lucia. This model was trained on imagery from the town of Dennery, but the provided code can be applied to drone imagery collected from any location on the island. The model output is linked to the building ID number included in the CHARIM GIS data and can be used as part of a tool which allows the user to click on a building and see all relevant information. Due to the nature of this data, we are not able to provide the drone image on Github. Links to the developed notebooks are provided below:
 
