@@ -32,15 +32,14 @@ Drone image data was collected showing rooftops in the small island town of Denn
 ---
 
 
-[Data Manipulation]:
+**Data Manipulation:**
 *   Numpy
 *   Pandas
 
-[Data Visulation]:
+**Data Visulation:**
 * MatPlotLib
 
-[Geospacial Manipulation]:
-* json
+**Geospacial Manipulation:**
 * rasterio
 * geopandas
 * pysal
@@ -48,7 +47,7 @@ Drone image data was collected showing rooftops in the small island town of Denn
 * projpy
 * fiona
 
-[Modeling]:
+**Modeling:**
 * keras
 * sklearn
 
