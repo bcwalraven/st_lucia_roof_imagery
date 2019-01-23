@@ -32,7 +32,7 @@ Drone image data was collected showing rooftops in the small island town of Denn
 ---
 
 
-
+<img src="../st_lucia_roof_imagery/images/libraries.png">
 
 
 **Provided Code**
