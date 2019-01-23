@@ -17,7 +17,7 @@ This project was developed by:
 
 
 *   Brandon Walraven 
-*   Sarah Scolnik
+*   [Sarah Scolnik] (https://www.linkedin.com/in/sarah-scolnik/)
 *   Kyle Sokolis
 *   John Milne
 
@@ -26,7 +26,7 @@ This project was part of a partnership between [New Light Technologies](https://
 **Executive Summary**
 ---
 
-Drone image data was collected showing rooftops in the small island town of Dennery on the island of St. Lucia to help the island prepare for future hurricanes. Given that there are approximately 80,000 buildings on the island of St. Lucia, developing a model that can quickly screen for damaged roofs would be useful for anyone assessing how to prepare the island for hurricane season. We created a set of individual roof images from the provided drone data by layering a shapefile with coordinates for all St. Lucia buildings from the Caribbean Handbook on Risk Information Management (CHARIM) database. Individual roof images were cropped using the bounding box for each building. We then trained a CNN to correctly classify images as either non-roof, good-quality roof, or poor-quality roof. Our initial model correctly identified 38% or the non-roof images and 73% of the poor roof images in the dataset, with a total accuracy for all three categories of 72% from a 56% baseline. This is a strong proof of concept for the model's viability if it could be trained on a larger set of images. The files provided in this repo include a production code file (both notebook and .py formats) that will take any drone image from St. Lucia, create individual images for each roof, classify them with the trained CNN model, and return a filtered version of the CHARIM buildings information with only the buildings the CNN identified as poor-quality. 
+Drone image data was collected showing rooftops in the small island town of Dennery on the island of St. Lucia to help the island prepare for future hurricanes. Given that there are approximately 80,000 buildings on the island of St. Lucia, developing a model that can quickly screen for damaged roofs would be useful for anyone assessing how to prepare the island for hurricane season. We created a set of individual roof images from the provided drone data by layering a shapefile with coordinates for all St. Lucia buildings from the Caribbean Handbook on Risk Information Management (CHARIM) database. Individual roof images were cropped using the bounding box for each building. We then trained a CNN to correctly classify images as either non-roof, good-quality roof, or poor-quality roof. Our initial model correctly identified 38% of the non-roof images and 73% of the poor roof images in the dataset, with a total accuracy for all three categories of 72% from a 56% baseline. This is a strong proof of concept for the model's viability if it could be trained on a larger set of images. The files provided in this repo include a production code file (both notebook and .py formats) that will take any drone image from St. Lucia, create individual images for each roof, classify them with the trained CNN model, and return a filtered version of the CHARIM buildings information with only the buildings the CNN identified as poor-quality. 
 
 **Required Python Libraries**
 ---
@@ -135,6 +135,6 @@ Additional image processing could be applied to the roof images to help the mode
 *   Isolate individual elements and join disparate elements in an image
 *   Find intensity of bumps or holes in an image
 
-**Import output into ArcGIS or another tool for viewing**
+**View output in ArcGIS or another tool**
 
-The output includes the building ID number from the GIS data and the classification (non-roof, good-roof, or poor-roof). Therefore the classification and the individual roof image could be linked to the building shapefile using the building ID number. Then all of the data could be displayed in ArcGIS so that a user could click on a building and see the roof classification, the image of the roof, and any other building data available from the shape file. This functionality could also be programmed in some other platform using the same data.
+The output includes the building ID number (from the GIS data) for all of the roofs classified as poor-quality. Therefore the classification and the individual roof image could be linked to the building shapefile using the building ID number. If desired, the code could be changed to output the good-quality roof and no-roof classes in addition to the poor-quality roofs. Then all of the data could be displayed in ArcGIS so that a user could click on a building and see the roof classification, the image of the roof, and any building data available from the shapefile. This functionality could also be programmed in some other platform using the same data.
