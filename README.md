@@ -30,10 +30,6 @@ Drone image data was collected showing rooftops in the small island town of Denn
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Problem-Statement-copy0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Problem-Statement-copy0.png "image_tooltip")
 
 
 **Provided Code**
