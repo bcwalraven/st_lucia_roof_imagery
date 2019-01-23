@@ -48,6 +48,9 @@ Geospacial Manipulation:
 * projpy
 * fiona
 
+Modeling
+* keras
+* sklearn
 
 
 **Provided Code**
