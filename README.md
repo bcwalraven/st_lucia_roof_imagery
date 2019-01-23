@@ -110,7 +110,7 @@ To compensate for the low number of images available to us, we used the Keras Im
 **Results and Analysis**
 ---
 
-When evaluating the model we want to ensure that both non-roof images and poor roofs are being correctly identified. To evaluate this, the two most important metrics to focus on are non-roof recall and poor-quality roof recall. They describe the percent of each category that the model correctly identified. Respectively, our model scored 38% on non-roof recall and 73% of poor-roof recall. Given the small number training images, we feel this is a viable proof of concept. A confusion matrix of our results is included below:
+When evaluating the model we want to ensure that both non-roof images and poor roofs are being correctly identified. To evaluate this, the two most important metrics to focus on are non-roof recall and poor-quality roof recall. They describe the percent of each category that the model correctly identified. Respectively, our model scored 38% on non-roof recall and 73% of poor-roof recall. Neither of these values is likely high enough to merit practical use of this model, however, given the small number training images, we feel this is a viable proof of concept. In addition to more data, a two model system could be built so that non-roof images are filtered out separaetly, allowing both models to specialize. In this case the roof quality classification would be done with a binary classification, which we also demonstrate in this repo. A normalized confusion matrix of our current results is included below:
 
 <img src="./images/confusion_matrix.png">
 
