@@ -18,7 +18,7 @@ This project was developed by:
 
 *   Brandon Walraven 
 *   Sarah Scolnik
-*   Kyle Sokolis
+*   [Kyle Sokolis](https://www.linkedin.com/in/kyle-e-sokolis/)
 *   John Milne
 
 This project was part of a partnership between [New Light Technologies](https://newlighttechnologies.com/) and General Assembly, in which New Light Technologies provided real-world data and problems for students to tackle in the field of disaster response and management.
