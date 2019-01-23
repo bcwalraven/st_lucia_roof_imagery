@@ -76,10 +76,7 @@ The diagram below illustrates how the Categorical CNN and Process Code work toge
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Problem-Statement-copy1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Problem-Statement-copy1.png "image_tooltip")
+<img src="./images/scripts.png">
 
 
 **Challenges**
@@ -115,15 +112,7 @@ To compensate for the low number of images available to us, we used the Keras Im
 
 When evaluating the model we want to ensure that both non-roof images and poor roofs are being correctly identified. To evaluate this, the two most important metrics to focus on are non-roof recall and poor-quality roof recall. They describe the percent of each category that the model correctly identified. Respectively, our model scored 38% on non-roof recall and 73% of poor-roof recall. Given the small number training images, we feel this is a viable proof of concept. A confusion matrix of our results is included below:
 
-. 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Problem-Statement-copy4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Problem-Statement-copy4.png "image_tooltip")
-
-
-** **
+<img src="./images/confusion_matrix.png">
 
 **Future Improvements**
 ---
