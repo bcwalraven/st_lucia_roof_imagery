@@ -16,8 +16,8 @@ This project was developed by:
 
 
 
-*   Brandon Walraven 
-*   Sarah Scolnik
+*   [Brandon Walraven](https://www.linkedin.com/in/brandonwalraven/) 
+*   [Sarah Scolnik](https://www.linkedin.com/in/sarah-scolnik/)
 *   [Kyle Sokolis](https://www.linkedin.com/in/kyle-e-sokolis/)
 *   John Milne
 
