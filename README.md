@@ -1,45 +1,15 @@
-<!----- Conversion time: 3.123 seconds.
-
-
-Using this Markdown file:
-
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β14
-* Tue Jan 22 2019 18:21:11 GMT-0800 (PST)
-* Source doc: https://docs.google.com/open?id=1eokrnQx1KuCWAXLSNknHDQT2GUAam03R6kZU4hkJ17k
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server.
------>
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 5.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
 **Problem Statement**
 
 Our project goal was to use drone RGB data and GIS data from the Caribbean Handbook on Risk Information Management (CHARIM) to train a convolutional neural network (CNN) to identify buildings that may need repairs to prepare for future hurricanes on the island of St. Lucia. This model was trained on imagery from the town of Dennery, but the provided code can be applied to drone imagery collected from any location on the island. The model output is linked to the building ID number included in the CHARIM GIS data and can be used as part of a tool which allows the user to click on a building and see all relevant information. Due to the nature of this data, we are not able to provide the drone image on Github. Links to the developed notebooks are provided below:
 
 
 
-*   [01 - Image Cropping Workflow](https://github.com/bcwalraven/st_lucia_roof_imagery/blob/master/notebooks/01_image_cropping_workflow.ipynb)
+*   [01 - Image Cropping Workflow](https://github.com/bcwalraven/st_lucia_roof_imagery/blob/master/01_image_cropping_workflow.ipynb)
 *   [02 - Categorical Data CNN](https://github.com/bcwalraven/st_lucia_roof_imagery/blob/master/notebooks/02_process_code.ipynb)
-*   [03 - Binary Data CNN](https://github.com/bcwalraven/st_lucia_roof_imagery/blob/master/notebooks/03_categorical_data_CNN.ipynb)
-*   [04 - Production Code (notebook)](https://github.com/bcwalraven/st_lucia_roof_imagery/blob/master/notebooks/04_binary_CNN.ipynb)
-*   [05 - Production Code (python script)](https://github.com/bcwalraven/st_lucia_roof_imagery/blob/master/notebooks/04_binary_CNN.ipynb)
+*   [03 - Binary Data CNN](https://github.com/bcwalraven/st_lucia_roof_imagery/blob/master/03_binary_CNN.ipynb)
+*   [04 - Production Code (notebook)](https://github.com/bcwalraven/st_lucia_roof_imagery/blob/master/04_process_code.ipynb)
+*   [05 - Production Code (python script)](https://github.com/bcwalraven/st_lucia_roof_imagery/blob/master/05_process_code.py)
+*   [06 - Presentation Slides](https://github.com/bcwalraven/st_lucia_roof_imagery/blob/master/06_Presentation_Code.pdf)
 
 This project was developed by:
 
@@ -60,10 +30,10 @@ Drone image data was collected showing rooftops in the small island town of Denn
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copy-of0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Problem-Statement-copy0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Copy-of0.png "image_tooltip")
+![alt_text](images/Problem-Statement-copy0.png "image_tooltip")
 
 
 **Provided Code**
@@ -90,10 +60,10 @@ The diagram below illustrates how the Categorical CNN and Process Code work toge
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copy-of1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Problem-Statement-copy1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Copy-of1.png "image_tooltip")
+![alt_text](images/Problem-Statement-copy1.png "image_tooltip")
 
 
 **Challenges**
@@ -108,10 +78,10 @@ We sorted the initial training set of roof images ourselves using our own judgem
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copy-of2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Problem-Statement-copy2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Copy-of2.png "image_tooltip")
+![alt_text](images/Problem-Statement-copy2.png "image_tooltip")
 
 
 **Dealing With Small Data Sets**
@@ -120,10 +90,10 @@ To compensate for the low number of images available to us, we used the Keras Im
 
  
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copy-of3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Problem-Statement-copy3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Copy-of3.png "image_tooltip")
+![alt_text](images/Problem-Statement-copy3.png "image_tooltip")
 
 
 **Results and Analysis**
@@ -132,10 +102,10 @@ When evaluating the model we want to ensure that both non-roof images and poor r
 
 . 
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copy-of4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Problem-Statement-copy4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Copy-of4.png "image_tooltip")
+![alt_text](images/Problem-Statement-copy4.png "image_tooltip")
 
 
 ** **
@@ -163,6 +133,3 @@ Additional image processing could be applied to the roof images to help the mode
 **Import output into ArcGIS or another tool for viewing**
 
 The output includes the building ID number from the GIS data and the classification (non-roof, good-roof, or poor-roof). Therefore the classification and the individual roof image could be linked to the building shapefile using the building ID number. Then all of the data could be displayed in ArcGIS so that a user could click on a building and see the roof classification, the image of the roof, and any other building data available from the shape file. This functionality could also be programmed in some other platform using the same data.
-
-
-<!-- Docs to Markdown version 1.0β14 -->
