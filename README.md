@@ -19,7 +19,7 @@ This project was developed by:
 *   [Brandon Walraven](https://www.linkedin.com/in/brandonwalraven/) 
 *   [Sarah Scolnik](https://www.linkedin.com/in/sarah-scolnik/)
 *   [Kyle Sokolis](https://www.linkedin.com/in/kyle-e-sokolis/)
-*   John Milne
+*   [John Milne] (https://www.linkedin.com/in/john-r-milne/)
 
 This project was part of a partnership between [World Bank’s Global Program for Resilient Housing](https://blogs.worldbank.org/taxonomy/term/18376) and General Assembly, in which The World Bank provided real-world data and problems for students to tackle in the field of disaster response and management.
 
