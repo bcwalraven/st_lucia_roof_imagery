@@ -21,7 +21,7 @@ This project was developed by:
 *   [Kyle Sokolis](https://www.linkedin.com/in/kyle-e-sokolis/)
 *   John Milne
 
-This project was part of a partnership between [New Light Technologies](https://newlighttechnologies.com/) and General Assembly, in which New Light Technologies provided real-world data and problems for students to tackle in the field of disaster response and management.
+This project was part of a partnership between [World Bank’s Global Program for Resilient Housing](https://blogs.worldbank.org/taxonomy/term/18376) and General Assembly, in which The World Bank provided real-world data and problems for students to tackle in the field of disaster response and management.
 
 **Executive Summary**
 ---
